@@ -1,7 +1,7 @@
 # neovim-config
 
-##Linux
+## Linux
 git clone https://github.com/grab-a-byte/neovim-config ~/.config/nvim
 
-##Windows
+## Windows
 git clone https://github.com/grab-a-byte/neovim-config $env:LOCALAPPDATA\nvim
