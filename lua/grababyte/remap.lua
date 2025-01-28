@@ -24,3 +24,7 @@ vim.keymap.set('v', '>', '>gv', {desc = "indent right" })
 
 --terminal mode remaps
 vim.keymap.set('t', '<Esc>', '<C-\\><C-n>', {})
+
+--clipboard copy paste
+vim.keymap.set('v', '<leader>y', '"*y', {desc = "Yank to clipboard"})
+vim.keymap.set('n', '<leader>p', '"*p', {desc = "Paste from clipboard"})
